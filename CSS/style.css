@@ -10,11 +10,12 @@ nav {
     border-radius: 15px;
     height: fit-content;
     width: 60%;
+    margin: auto;
 }
 
 .navMenu li {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 450;
+    font-weight: 600px;
     list-style: none;
     padding: 10px;
     height: auto;
@@ -26,18 +27,17 @@ nav {
 }
 
 .heroImg {
-    width: 50%;
-
+    width: 500px;
 }
-
 .buttons {
-    width: 50%;
+    width: 400px;
     height: auto;
 }
 
 .logoImg {
     display: flex;
     height: auto;
+    padding-top: 20px;
     
 }
 
@@ -48,6 +48,42 @@ nav {
 
 .mainP {
     display: flex;
-    width: 50%;
+    width: 400px;
     position: relative;
 }
+
+div {
+    display: flex;
+    flex-direction: column;
+  }
+
+h1 {
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.flex-container {
+    padding: 10px;
+    margin: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px 100px;
+    justify-content: center;
+    height: 500px;
+
+    align-content: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+        margin: 50px;
+        flex-direction: column;
+    }
+  }
