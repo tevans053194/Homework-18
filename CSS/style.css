@@ -27,10 +27,11 @@ nav {
 }
 
 .heroImg {
-    width: 75%;
+    width: 800px;
+    flex-direction: column;
 }
 .buttons {
-    width: 400px;
+    width: 600px;
 }
 
 .logoImg {
@@ -46,7 +47,8 @@ nav {
 
 .mainP {
     display: flex;
-    width: 400px;
+    width: 600px;
+    flex-direction: column;
 }
 
 div {
@@ -55,7 +57,7 @@ div {
   }
 
 h1 {
-    padding-top: 10%;
+    padding-top: 300px;
     display: flex;
     flex-direction: column;
     margin: 30px;
@@ -70,7 +72,6 @@ h1 {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 100px 100px;
-    height: 500px;
     align-content: center;
     padding-bottom: 200px;
     margin: 50px;
